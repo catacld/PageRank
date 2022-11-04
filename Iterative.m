@@ -7,7 +7,7 @@ function R = Iterative(nume, d, eps)
   %read the data from the file and create the adjacency matrix
   A=zeros(N,N);
   i=1;
-  %create an auxiliary array that will help creating the matrix with the links between the nodes
+  %create an auxiliary array that will help create the matrix with the links between the nodes
   D=ones(N,1);
   while i <= N
     %read the node's number
